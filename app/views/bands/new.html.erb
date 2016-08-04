@@ -1,0 +1,9 @@
+<h1>Add Your Band<h1/>
+
+  <%= render "errors" %>
+
+  <form action="<%= bands_url %>" method="post">
+
+    <%= render "form_content" %>
+    <input type="submit" value="Add Band">
+  </form>
